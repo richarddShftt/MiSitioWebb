@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 10 formularios</title>
+</head>
+<body>
+    <img src="ith.png" alt="">
+    <form action="#" name="SolucionFormulario"> 
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" maxlength="30">
+<br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="correo@empresa.com" required maxlength="30">
+        <br>
+        <br>
+        <label for="asunto">Asunto</label>
+        <br>
+        <select name="asunto" id="asunto" size="3">
+            <br>
+            <option value="InformacionWeb">pedir indormaciion web</option>
+            <br>
+            <option value="CitaPrevia">Solicitar Cita Previa</option>
+            <br>
+            <option value="Otros">Otros</option>
+        </select>
+        <br>
+        <br>
+        <label for="marketing"><b>¿Como nos has conocido?</b></label>
+        <br>
+        <div class="marketing">
+            <input type="checkbox" value="amigo" id="amigo"><label for="amigo">Un amigo</label>
+            <input type="checkbox" value="google" id="googleando"><label for="googleando">Googleando</label>
+            <input type="checkbox" value="redsocial" id="redsocial"><label for="redsocial">Redes Sociales</label>
+            <input type="checkbox" value="otros" id="otros"><label for="otros">Otros</label>
+        </div>
+<br>
+        <label for="mensaje">Escribe tu mensaje</label>
+        <br>
+        <textarea name="mensaje" id="mensaje" maxlength="300"></textarea>
+        <br>
+
+        <input type="checkbox" value="Acepta_RGPD" id="rgpd" required><label for="rgpd">He leido y acepto el<a href="#" target="_blanck"> aviso legal y la politica de privacidad</a></label>
+<br>
+        <mark>@iher12btpinformatica</mark>
+    </form>
+</body>
+</html>
